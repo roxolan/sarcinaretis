@@ -44,7 +44,7 @@
 /* 0 */
 /***/ function(module, exports) {
 
-	document.write("Welcome to Anna Maria Jopek's Concert");
+	document.write("Welcome to Anna Maria Jopek's Concert!!!");
 
 	console.log('App loaded');
 

@@ -22,5 +22,12 @@ packages are needed
 ```
 	$ webpack ./app.js bundle.js
 ```
+* When a configuration file is provided, all it takes is to run:
+```
+	$ webpack
+```
+
+# Configuration file (webpack.config.js)
+* It is essentially a CommonJS module
 
 
