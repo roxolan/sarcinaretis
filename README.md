@@ -9,5 +9,18 @@ https://github.com/joeeames/WebpackFundamentalsCourse
 * Use a module system (commonjs, amd or es6)
 * Circular dependencies are strictly prohibited
 * Webpack will take care of the order, we just need to indicate what
-  packages are needed
+packages are needed
+
+# Webpack Installation
+* Node.js must be installed first
+```
+	$ npm install webpack -g 
+```
+
+# Using Webpack
+* To create an outpup bundle:
+```
+	$ webpack ./app.js bundle.js
+```
+
 
