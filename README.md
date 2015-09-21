@@ -30,4 +30,15 @@ packages are needed
 # Configuration file (webpack.config.js)
 * It is essentially a CommonJS module
 
+# Watch mode
+A mode in which Webpack will watch the files, notice changes saved and
+will immediately re-run the build and create the output file
+* One way to run it is via command line:
+```
+    $ webpack --watch
+```
+* Another way to run watch mode is to add to webpack.config.js:
+```
+    watch: true
+```
 
