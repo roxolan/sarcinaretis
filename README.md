@@ -16,6 +16,10 @@ packages are needed
 ```
 	$ npm install webpack -g 
 ```
+* To install Webpack dev server:
+```
+    $ npm instal webpack-dev-server -g
+```
 
 # Using Webpack
 * To create an outpup bundle:
@@ -41,4 +45,13 @@ will immediately re-run the build and create the output file
 ```
     watch: true
 ```
+
+# Using dev server
+* after installing, run in the app folder:
+```
+    $ webpack-dev-server 
+```
+The dev app will be available at
+http://localhost:8080/webpack-dev-server/ by default, with additional
+dev server bar on top.
 
