@@ -1,2 +1,2 @@
 // file containing utility functions for the app
-console.log('utilities loaded');
+console.log('logging from the util.js file...');

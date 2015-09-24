@@ -33,6 +33,15 @@ packages are needed
 
 # Configuration file (webpack.config.js)
 * It is essentially a CommonJS module
+* To list dependencies that are not part of the module dependency
+  system, i.e. not required from within the files
+  required from the starting point (usually app.js), one can use an
+  array of filepaths for as the value of the 'entry' property, not
+  necessarily with ".js" extension:
+```
+    entry: [".util", "./app"],
+    ...
+```
 
 # Watch mode
 A mode in which Webpack will watch the files, notice changes saved and

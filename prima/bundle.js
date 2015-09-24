@@ -42,11 +42,22 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ function(module, exports) {
+/***/ function(module, exports, __webpack_require__) {
 
-	document.write("Welcome to Anna Maria Jopek's Concertis!!!");
+	// using CommonJS syntax to bring in 'login' dependency:
+	__webpack_require__(1);
+
+	document.write("Welcome to Anna Maria Jopek's Concerts with LogIn dependency loaded");
 
 	console.log('App loaded');
+
+
+/***/ },
+/* 1 */
+/***/ function(module, exports) {
+
+	// file containing log in logic for the app
+	console.log('login loaded');
 
 
 /***/ }
