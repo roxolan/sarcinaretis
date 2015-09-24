@@ -76,3 +76,6 @@ the browser.
 * The iframe version of the app with dev server notifications will be
   also available at http://localhost:8080/webpack-dev-server/.
   
+# Loaders
+Provide a way to process files and, if necessary, to transform them
+into something else.
