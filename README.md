@@ -42,6 +42,8 @@ packages are needed
     entry: [".util", "./app"],
     ...
 ```
+* *loaders & preLoaders*: Provide a way to process files and, if necessary, to transform them
+into something else.
 
 # Watch mode
 A mode in which Webpack will watch the files, notice changes saved and
@@ -76,6 +78,15 @@ the browser.
 * The iframe version of the app with dev server notifications will be
   also available at http://localhost:8080/webpack-dev-server/.
   
-# Loaders
-Provide a way to process files and, if necessary, to transform them
-into something else.
+# Production vs. Development Builds
+* To build the app for production, use:
+```
+    $ webpack -p 
+```
+* Another config file can be created especially for production and
+  strip some of the dev functionality by means of strip-loader, thus
+  extendign the dev config. To run it with production config and
+  minification:
+```
+    $ webpack --config webpack-production.config.js -p
+```
