@@ -5,4 +5,8 @@ let login = (username, password) => {
   }
 };
 
-login('admin', 'ihavenoidea');
+// login('admin', 'ihavenoidea');
+// introducing more paradigmatic ES6 way:
+
+export {login}
+
